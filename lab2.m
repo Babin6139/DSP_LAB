@@ -12,7 +12,7 @@ time_period = [-15:1:15];
 amplitude = [zeros(1,15), ones(1,1), zeros(1,15)];
 subplot(4,2,2)
 stem(time_period,amplitude);
-title('impulse function');
+title('Unit impulse function');
 xlabel('time period');
 ylabel('amplitude');
 
